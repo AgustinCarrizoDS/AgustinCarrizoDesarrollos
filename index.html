@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agustin Carrizo - Desarrollador</title>
+    <link rel="stylesheet" href="styles.css"> <!--link stylesheet es para vincular el css al html y podes luego seguir
+    trabajando en la pagina, y href es donde se encuentr alojado el archivo css-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Poppins:ital,wght@0,200;0,300;1,200&display=swap"
+    rel="stylesheet"><!--para que la fuente se aplique hay que llamar en css, en body "font-family:'aca va el nombre de la letra
+                     descargada'-->
+</head>
+
+<body>
+<header>
+    <div class="contenedor">
+        <div class="menu"> <!--cuando pongo un class en html, en css se lo llama con un "." punto ejemplo .menu{}-->
+            <p>AGUSTIN CARRIZO</p>
+            <nav>
+                <ul class="lista"> <!--esta clase esta en ccs-->
+                    <li>Sobre mi</li>
+                    <li>Servicios</li>
+                    <li>Mis Trabajos</li>
+                    <li>¿Por que trabajar conmigo?</li>
+                    <li>Blog</li>
+                    <li>Contacto</li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="titular">
+            <h1>Agustín Carrizo</h1>
+            <h2>Diseñador & Desarrollador Web</h2>
+            <a href="https://github.com/AgustinCarrizoDS?tab=repositories" target="">Ver mis trabajos</a>
+        </div>
+  </div>
+</header>
+
+<section> <!--es para marcar secciones dentro de la navegacion en la pagina-->
+    <h3>Sobre mi</h3>
+    <div class="contenedor-sobremi"> <!--todos los elementos que esten contenidos aca se van a poner uno al lado del otro-->
+        <img src="yo.jpg" alt="Agustin Carrizo" title="Agustin Carrizo"> <!--alt es para que google detecte que la imagen
+            corresponde a mi persona, title: es para que sobre la imagen aparece una leyenda-->
+            <div class="contenedor-parrafo-y-boton">
+                <p>Mi nombre es Agustin Carrizo y soy Desarrollador de contenido, tengo la experiencia en desarrollo de sitios
+                web para pequeñas y medianas empresas, hasta tiendas de carrito de compras.</p>
+                <p>Me aseguro de utilizar siempre las últimas tecnologías de desarrollo web: HTML5, CSS3, jQuery, Wordpress.
+                Si necesitas una página web moderna, funcional, que se adapte a todos los diferentes tipos de pantalla, te
+                aseguro que llegaste al lugar correcto.</p>
+                <p>Podés ponerte en contacto conmigo a través de Facebook, Linkedin, o completando el formulario de contacto
+                que se encuentra al final de mi sitio web.</p>
+                </p>
+                <a href="https://github.com/AgustinCarrizoDS?tab=repositories" target="">Ver mis trabajos</a>
+            </div>
+</div>
+</section>
+
+<section>
+      <h3>Servicios</h3>
+      <div class="contenedor-servicios">
+        <div class="servicio violeta"> <!--cada div es una parte del section-->
+        <h4>Diseño Web</h4>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias facere perspiciatis pariatur rem laudantium dolore vel illum consequatur quae. Illum reprehenderit modi fugit recusandae sapiente quod accusantium corrupti, harum magni.
+        </p>
+        <img src="monitor.png" alt="">
+     </div>
+
+     <div class="servicio celeste">
+        <h4>Responsive Desing</h4>
+        <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error quae accusamus beatae quidem, modi dignissimos molestiae expedita. Deleniti ab magnam molestiae quis exercitationem voluptates? Atque quis excepturi minima sed consequatur?
+        </p>
+        <img src="celular.png" alt="">
+     </div>
+
+     <div class="servicio violeta">
+        <h4>SEO</h4>
+        <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda nobis sit perferendis, tenetur dicta blanditiis sunt dolores! Minima, reprehenderit! Vero, non quae? Earum quam quod, praesentium veniam modi maiores ratione!
+        </p>
+        <img src="estadistica.jpg" alt="">
+     </div>
+
+     <div class="servicio celeste">
+        <h4>Autoadministrable</h4>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error quod rem qui, pariatur ex laboriosam, deleniti officia eligendi nobis beatae suscipit mollitia fuga sapiente ut autem quo eius. Laborum, eius?
+        </p>
+        <img src="monitor.png" alt="">
+     </div>
+
+     <div class="servicio violeta">
+        <h4>Mantenimiento</h4>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque consectetur aspernatur ipsum dolores nostrum ab et alias maxime aperiam cumque explicabo laudantium aut ad, vero iure eum! Explicabo, quo suscipit?
+        </p>
+        <img src="monitor.png" alt="">
+     </div>
+
+     <div class="servicio celeste">
+        <h4>Marketing digital</h4>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem tempora quia nisi. Quibusdam dicta aliquid rerum deleniti blanditiis. Ab suscipit, repudiandae beatae mollitia modi explicabo quos repellendus assumenda incidunt deleniti.
+        </p>
+        <img src="monitor.png" alt="">
+     </div>
+   </div>
+
+<!--aca arranca el formulario de contacto casi al final de la pagina-->
+</section>
+   <div class="formulario-contacto">
+      <h3>Formulario de contacto</h3>
+         <center><form>
+         <label for="texto"></label>
+         <input id="text" type="text" placeholder="Nombre" value="" required>
+         <br>
+         <label for="texto"></label>
+         <input id="text" type="text" placeholder="Apellido" value="" required>
+         <br>
+         <label for="texto"></label>
+         <input id="number" type="text" placeholder="Fecha de nacimiento" value="" required>
+         <br>
+         <label for="correo"></label>
+         <input id="text" type="email" placeholder="E-Mail" value="" required>
+         <br>
+         <label for="texto"></label>
+         <input id="text" type="text" placeholder="Teléfono" value="" required>
+         <br>
+         <h5>Preferencia de respuesta</h5>
+         <input type="radio" id="mail" name="radio"><label for="E-Mail" checked>E-Mail</label>
+         <input type="radio" id="mail" name="radio"><label for="Whatsapp" checked>Whatsapp</label>
+         <input type="radio" id="mail" name="radio"><label for="Zoom/Meet" checked>Zoom/Meet</label>
+         <br>
+         <br>
+         <input class="enviar-formulario" type="submit" value="Enviar Formulario">
+         </form></center>
+   <section>
+</div>   
+
+</section>
+
+<br>
+
+   <footer>
+      © 2023 Agustín Carrizo, Inc.
+      <br>
+      Av. Caseros 3038, Piso 10, CP 1265, Avellaneda, CABA
+   </footer>
+
+</body>
+</html>

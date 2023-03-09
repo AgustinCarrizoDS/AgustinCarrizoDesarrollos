@@ -1,0 +1,161 @@
+body{
+    background-image: url(lineasgrises.jpg);
+    font-family: 'Poppins';
+    margin: 0px;
+    padding: 0px;
+}
+
+p { /*texto superior agustin carrizo*/
+    font-size: 20px;
+    font-weight: bold;
+}
+
+li{
+    list-style: none;
+    margin-right: 25px;
+}
+
+.primer-elemento{
+    color: red;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /*para alinear todo y que no quede algo arriba y algo por debajo*/
+}
+
+
+.lista {
+    display: flex;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+
+a{ /*esta etiqueta es el boton de ver mis trabajos*/
+    text-decoration: none; /*es para sacarle el subrayado*/
+    color: black;
+    font-size: 14px;
+    background-color: #5cb8ff;
+    padding: 20px 30px 20px 30px; /*en una sola linea de codigo se escriben 4, top, right, bottom, left*/
+    color: white;
+}
+
+.titular{
+    text-align: center;
+    margin-top: 200px;
+}
+
+h1{
+    font-size: 60px;
+    margin: 0;
+}
+
+h2{
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+
+header{
+    background: url(lineasgrises.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.contenedor{
+    max-width: 1280px;
+    width: 90%;
+    margin: auto;
+}
+
+/*arranca seccion sobre mi*/
+
+h3 {
+    text-align: center;
+    font-size: 55px;
+    font-weight: normal;
+}
+
+.contenedor-sobremi {
+    display: flex;
+    justify-content: space-around; /*es para dar un espaciado alrededor*/
+    align-items: center; /*es para alinear todos los elementos a la misma altura*/
+}
+
+.contenedor-parrafo-y-boton{
+    width: 42%;
+}
+
+.contenedor-parrafo-y-boton p { /*es para llamar solamente a los parrafos de esa parte y no a todos los parrafos del codigo*/
+    font-size: 18px;
+}
+
+.contenedor-parrafo-y-boton a{
+    margin-top: 20px;
+    display: inline-block; /*es para que el boton tenga propiedades en bloque, y no en linea para poder darle espaciado*/
+}
+
+/*arranca la parte servicios*/
+
+.contenedor-servicios{ /*es para llamar a los servicios*/
+    display: flex; /*es para ponerlos uno al lado del otro*/
+    flex-wrap: wrap; /*es para controlar cuantos elemento se van a ver por linea*/
+    justify-content: space-around;
+    
+}
+
+.servicio{
+    color: white;
+    width: 25%;
+    padding: 50px 38px 50px 38px;
+    border-radius: 10px;
+    margin-bottom: 40px ; /*es para separar un elemento hacia abajo*/
+}
+
+
+
+.servicio p{ /*trae para editar el parrafo de los servicios*/
+    font-size: 18px;
+    color: black;
+}
+
+.violeta{ /*se llama solamente a la terminacion y no se pone ".servicio violeta" solo violeta*/
+    background-color: #5055df;
+}
+
+.celeste{ /*se llama solamente a la terminacion y no se pone ".servicio celeste" solo celeste*/
+    background-color: #40a8fa;
+}
+
+.servicio h4{ /*es para agarrar el h4 y solamente modificar el tamaño de la letra de servicio y no se haga en toda la pagina*/
+    font-size: 30px;
+    margin: 0px; /*para sacarle el margen con el que ya viene*/
+}
+
+.servicio img{ /*es para agarrar la imagen que esta dentro de servicio*/
+    float: right; /*es para poner un elemento a la derecha, en este caso*/
+    background-color: white;
+    border-radius: 100px;
+    padding: 5px;
+}
+
+.formulario-contacto{
+   color: black;
+    
+}
+
+.enviar-formulario{
+    font-size: 15px;
+    border-radius: 15px;
+    background-color: #40a8fa;
+}
+
+footer{
+    background-color: grey;
+    border-radius: 20px;
+    text-align: center;
+    color:black;
+    font-weight: bold;
+}
